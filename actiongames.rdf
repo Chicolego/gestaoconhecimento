@@ -1,0 +1,2288 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.org/jogos#"
+     xml:base="http://example.org/jogos"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ActionGames="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemAspectoTemporal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemAspectoTemporal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://example.org/jogos#AspectoTemporal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemCamera -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemCamera">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://example.org/jogos#Camera"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemCenario -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemCenario">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://example.org/jogos#Cenario"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemConectividade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemConectividade">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Conectividade"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemDimensao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemDimensao">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://example.org/jogos#Dimensao"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemEstilo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemEstilo">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://example.org/jogos#EstiloArtistico"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemJogabilidade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemJogabilidade">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://example.org/jogos#Jogabilidade"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemLevelDesign -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemLevelDesign">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Level_Design"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemMecanica -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemMecanica">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemModo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemModo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modo_de_Jogadores"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemMonetizacao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemMonetizacao">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Anúncios"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modelo_de_Receita"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Monetização"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Transações"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemNarrativa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemNarrativa">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Desenvolvimento_de_Personagem"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dispositivos_Narrativos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Narrativa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipo_de_Narrativa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemObjetivo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemObjetivo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Objetivos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemPontoDeVista -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemPontoDeVista">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://example.org/jogos#PontoDeVista"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemPublicoAlvo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemPublicoAlvo">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://example.org/jogos#PublicoAlvo"/>
+        <rdfs:range rdf:resource="https://dbpedia.org/page/ESRB"/>
+        <rdfs:range rdf:resource="https://dbpedia.org/page/PEGI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemTema -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemTema">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://example.org/jogos#Tema"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemTipoDeFinal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemTipoDeFinal">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://example.org/jogos#TipoDeFinal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemTiposDeInimigos -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemTiposDeInimigos">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Aliens"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Animais"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Criaturas"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Humanóides"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Robôs"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipos_de_Inimigos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemTomAtmosfera -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#TemTomAtmosfera">
+        <rdfs:domain rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <rdfs:range rdf:resource="http://example.org/jogos#TomAtmosfera"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/jogos#AspectoTemporal -->
+
+    <owl:Class rdf:about="http://example.org/jogos#AspectoTemporal">
+        <rdfs:label>Aspecto Temporal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/jogos#Camera -->
+
+    <owl:Class rdf:about="http://example.org/jogos#Camera">
+        <rdfs:comment>Visão proporcionada pela câmera do jogo para o jogador.</rdfs:comment>
+        <rdfs:label>Câmera</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/jogos#Cenario -->
+
+    <owl:Class rdf:about="http://example.org/jogos#Cenario">
+        <rdfs:label>Cenário</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/jogos#Dimensao -->
+
+    <owl:Class rdf:about="http://example.org/jogos#Dimensao">
+        <rdfs:comment>Aspecto de renderização do jogo, em termos de profundidade.</rdfs:comment>
+        <rdfs:label>Dimensão</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/jogos#EstiloArtistico -->
+
+    <owl:Class rdf:about="http://example.org/jogos#EstiloArtistico">
+        <rdfs:label>Estilo Artístico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/jogos#Jogabilidade -->
+
+    <owl:Class rdf:about="http://example.org/jogos#Jogabilidade">
+        <rdfs:label>Jogabilidade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/jogos#PontoDeVista -->
+
+    <owl:Class rdf:about="http://example.org/jogos#PontoDeVista">
+        <rdfs:label>Ponto de Vista</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/jogos#PublicoAlvo -->
+
+    <owl:Class rdf:about="http://example.org/jogos#PublicoAlvo">
+        <rdfs:label>Público-Alvo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/jogos#Tema -->
+
+    <owl:Class rdf:about="http://example.org/jogos#Tema">
+        <rdfs:label>Tema</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/jogos#TipoDeFinal -->
+
+    <owl:Class rdf:about="http://example.org/jogos#TipoDeFinal">
+        <rdfs:label>Tipo de Final</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/jogos#TomAtmosfera -->
+
+    <owl:Class rdf:about="http://example.org/jogos#TomAtmosfera">
+        <rdfs:label>Tom/Atmosfera</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Aliens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Aliens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipos_de_Inimigos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Animais -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Animais">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipos_de_Inimigos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Anúncios -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Anúncios">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Monetização"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Conectividade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Conectividade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Criaturas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Criaturas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipos_de_Inimigos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Desenvolvimento_de_Personagem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Desenvolvimento_de_Personagem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Narrativa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dispositivos_Narrativos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dispositivos_Narrativos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Narrativa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes">
+        <rdfs:subClassOf rdf:resource="http://example.org/jogos#Jogabilidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Humanóides -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Humanóides">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipos_de_Inimigos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Level_Design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Level_Design"/>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modelo_de_Receita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modelo_de_Receita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Monetização"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modo_de_Jogadores -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modo_de_Jogadores"/>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Monetização -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Monetização"/>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Narrativa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Narrativa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Objetivos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Objetivos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Robôs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Robôs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipos_de_Inimigos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipo_de_Narrativa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipo_de_Narrativa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Narrativa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipos_de_Inimigos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipos_de_Inimigos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Transações -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Transações">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Monetização"/>
+    </owl:Class>
+    
+
+
+    <!-- https://dbpedia.org/ontology/VideoGame -->
+
+    <owl:Class rdf:about="https://dbpedia.org/ontology/VideoGame"/>
+    
+
+
+    <!-- https://dbpedia.org/page/ESRB -->
+
+    <owl:Class rdf:about="https://dbpedia.org/page/ESRB">
+        <rdfs:subClassOf rdf:resource="http://example.org/jogos#PublicoAlvo"/>
+        <rdfs:label>ESRB (Estados Unidos)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://dbpedia.org/page/PEGI -->
+
+    <owl:Class rdf:about="https://dbpedia.org/page/PEGI">
+        <rdfs:subClassOf rdf:resource="http://example.org/jogos#PublicoAlvo"/>
+        <rdfs:label>PEGI (Europa)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Abstrato -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Abstrato">
+        <rdf:type rdf:resource="http://example.org/jogos#EstiloArtistico"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Abstract_art"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Aconchegante -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Aconchegante">
+        <rdf:type rdf:resource="http://example.org/jogos#TomAtmosfera"/>
+        <rdfs:isDefinedBy>Uma atmosfera que evoca sentimentos de conforto, segurança e tranquilidade. Caracterizado por ambientes acolhedores, música suave e interações amigáveis.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Action_RPG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Action_RPG">
+        <rdf:type rdf:resource="http://example.org/jogos#Jogabilidade"/>
+        <rdfs:isDefinedBy>Além de possuir elementos de um jogo de ação, apresenta elementos de RPG.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Adults_Only -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Adults_Only">
+        <rdf:type rdf:resource="https://dbpedia.org/page/ESRB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Anime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Anime">
+        <rdf:type rdf:resource="http://example.org/jogos#EstiloArtistico"/>
+        <rdfs:isDefinedBy>Estilo artístico inspirado nos estilos de animação japonesa.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Antagonista -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Antagonista">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Desenvolvimento_de_Personagem"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Antagonist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Anão -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Anão">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Humanóides"/>
+        <rdfs:isDefinedBy>Baixos, robustos, barbas longas, mestres da forja.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Aracnídeos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Aracnídeos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Animais"/>
+        <rdfs:isDefinedBy>dbpedia.org/page/Arachnids</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Arco_e_flecha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Arco_e_flecha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Archery"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Atletismo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Atletismo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Sport_of_athletics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Automobilismo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Automobilismo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Motorsport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Aventureiro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Aventureiro">
+        <rdf:type rdf:resource="http://example.org/jogos#TomAtmosfera"/>
+        <rdfs:isDefinedBy>Uma atmosfera excitante e dinâmica, incentivando a exploração e a descoberta. Caracterizado por cenários variados, música enérgica e um senso de jornada e aventura.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Baseado_em_Turnos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Baseado_em_Turnos">
+        <rdf:type rdf:resource="http://example.org/jogos#AspectoTemporal"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Turn-based_strategy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Basilisco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Basilisco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Criaturas"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Basilisk</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Basquete -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Basquete">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Basketball"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Boliche -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Boliche">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Bowling"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Boxe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Boxe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Boxing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Brawler_Beat_em_Up -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Brawler_Beat_em_Up">
+        <rdf:type rdf:resource="http://example.org/jogos#Jogabilidade"/>
+        <rdfs:isDefinedBy>Combate corpo a corpo com múltiplos inimigos em ambientes lineares ou semi-lineares.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Campestre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Campestre">
+        <rdf:type rdf:resource="http://example.org/jogos#Cenario"/>
+        <rdfs:isDefinedBy>Áreas distantes de cidades, formadas por campos, planícies e/ou fazendas e plantações.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Cartoon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Cartoon">
+        <rdf:type rdf:resource="http://example.org/jogos#EstiloArtistico"/>
+        <rdfs:isDefinedBy>Caracteriza-se por visuais exagerados e coloridos, semelhante a desenhos animados.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Cel_shading -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Cel_shading">
+        <rdf:type rdf:resource="http://example.org/jogos#EstiloArtistico"/>
+        <rdfs:isDefinedBy>Um estilo que dá aos gráficos 3D a aparência de serem desenhados à mão, como em desenhos animados ou quadrinhos.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Ciclismo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Ciclismo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cycling"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Competitivo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Competitivo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modo_de_Jogadores"/>
+        <rdfs:isDefinedBy>Jogos com modo competitivo são partidas em que os jogadores competem para melhorar sua classificação ou posição em um ranking.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Compra_Única -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Compra_Única">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modelo_de_Receita"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Buy-to-play"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Compras_In-App -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Compras_In-App">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Transações"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Microtransactions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Conteúdo_para_Download -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Conteúdo_para_Download">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Transações"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Downloadable_content"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Cooperativo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Cooperativo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modo_de_Jogadores"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cooperative_video_game"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Crescimento_do_Protagonista -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Crescimento_do_Protagonista">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Desenvolvimento_de_Personagem"/>
+        <rdfs:isDefinedBy>O protagonista, em algum sentido, evolui ao longo da história.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Customização_de_Personagem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Customização_de_Personagem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+        <rdfs:isDefinedBy>Ferramentas de customização de características do personagem, como nome e aparência.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Cutscenes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Cutscenes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dispositivos_Narrativos"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cutscene"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Deficiência_e_Acessibilidade -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Deficiência_e_Acessibilidade">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>Jogos que incluem personagens com deficiências e abordam questões de acessibilidade. Esses jogos podem promover a inclusão e aumentar a conscientização sobre as barreiras enfrentadas por pessoas com deficiências.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Demônio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Demônio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Criaturas"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Demon</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dimensão_Alternativa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dimensão_Alternativa">
+        <rdf:type rdf:resource="http://example.org/jogos#Cenario"/>
+        <rdfs:isDefinedBy>Ambientes surrealistas e fantásticos, com regras físicas diferentes e visuais estranhos. Podem incluir paisagens oníricas e criaturas bizarras.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dinossauros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dinossauros">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Animais"/>
+        <rdfs:isDefinedBy>dbpedia.org/page/Dinossaur</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dragão -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dragão">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Criaturas"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Dragon</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dróide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dróide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Robôs"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Droid</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Elenco_de_Apoio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Elenco_de_Apoio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Desenvolvimento_de_Personagem"/>
+        <rdfs:isDefinedBy>Personagens secundários que ajudam a desenvolver a narrativa.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Elfo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Elfo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Humanóides"/>
+        <rdfs:isDefinedBy>Altos, esguios, orelhas pontudas, frequentemente mágicos.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Em_Trilho -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Em_Trilho">
+        <rdf:type rdf:resource="http://example.org/jogos#Camera"/>
+        <rdfs:isDefinedBy>A câmera segue um percurso fixo, como se estivesse em um trilho, limitando o movimento do jogador de acordo com o design do nível.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Escalada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Escalada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Climbing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esgrima -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esgrima">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Fencing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Espacial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Espacial">
+        <rdf:type rdf:resource="http://example.org/jogos#Cenario"/>
+        <rdfs:isDefinedBy>Ambientes vastos e silenciosos, com estrelas, planetas, asteroides e naves espaciais. Pode incluir estações espaciais e planetas distantes.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esqui -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esqui">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Skiing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Everyone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Everyone">
+        <rdf:type rdf:resource="https://dbpedia.org/page/ESRB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Exploração -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Exploração">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Objetivos"/>
+        <rdfs:isDefinedBy>Incentiva a exploração de ambientes para descobrir segredos ou recursos.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Fantasia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Fantasia">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Fantasy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Felinos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Felinos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Animais"/>
+        <rdfs:isDefinedBy>dbpedia.org/page/Felines</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Ficção_Científica -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Ficção_Científica">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Science_fiction</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Ficção_Climática -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Ficção_Climática">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Climate_fiction</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Ficção_Social -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Ficção_Social">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Social_science_fiction</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Ficção_de_Horror -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Ficção_de_Horror">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Horror_fiction</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Fighting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Fighting">
+        <rdf:type rdf:resource="http://example.org/jogos#Jogabilidade"/>
+        <rdfs:isDefinedBy>Combate em arenas ou ambientes limitados, com foco em técnicas de luta e combos.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Fixa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Fixa">
+        <rdf:type rdf:resource="http://example.org/jogos#Camera"/>
+        <rdfs:isDefinedBy>A câmera permanece fixa em um ponto específico ou segue um percurso predeterminado, limitando os ângulos de visão.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Fixo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Fixo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Level_Design"/>
+        <rdfs:isDefinedBy>Cenários permanentes.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Flashbacks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Flashbacks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dispositivos_Narrativos"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Flashback_(narrative)</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Fragmentada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Fragmentada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipo_de_Narrativa"/>
+        <rdfs:isDefinedBy>A história é contada em pedaços ou fragmentos, que o jogador deve reunir para entender a narrativa completa.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Free-to-Play_com_Publicidade -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Free-to-Play_com_Publicidade">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modelo_de_Receita"/>
+        <rdfs:isDefinedBy rdf:resource="https://en.wikipedia.org/wiki/Free-to-play"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Freemium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Freemium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modelo_de_Receita"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Freemium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Futebol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Futebol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Association_football"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Futebol_de_7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Futebol_de_7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Seven-a-side_football"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Futebol_de_areia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Futebol_de_areia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Beach_soccer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Futsal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Futsal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Futsal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Futurista -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Futurista">
+        <rdf:type rdf:resource="http://example.org/jogos#Cenario"/>
+        <rdfs:isDefinedBy>Metrópoles avançadas com arquitetura high-tech, veículos voadores, e tecnologias de ponta. Muitas vezes incluem arranha-céus brilhantes, neon, e um visual cyberpunk.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Fênix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Fênix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Criaturas"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Phoenix</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Goblins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Goblins">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Humanóides"/>
+        <rdfs:isDefinedBy>Pequenos, ágeis, pele verde ou amarela, travessos.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Hack_and_Slash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Hack_and_Slash">
+        <rdf:type rdf:resource="http://example.org/jogos#Jogabilidade"/>
+        <rdfs:isDefinedBy>Combate centrado em armas brancas.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Handebol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Handebol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Handball"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Harpia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Harpia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Criaturas"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Harpy</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Hidra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Hidra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Criaturas"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Hydra</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Histórico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Histórico">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>Baseia-se em períodos históricos reais, recriando eventos, figuras e locais do passado. Esse tema pode envolver desde a antiguidade até guerras mundiais, focando na precisão histórica e na imersão.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Horror -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Horror">
+        <rdf:type rdf:resource="http://example.org/jogos#TomAtmosfera"/>
+        <rdfs:isDefinedBy>Atmosfera que induz medo, tensão e suspense. Caracterizado por ambientes sombrios, música assustadora e elementos inesperados que criam uma sensação constante de perigo.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Humorístico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Humorístico">
+        <rdf:type rdf:resource="http://example.org/jogos#TomAtmosfera"/>
+        <rdfs:isDefinedBy>Uma atmosfera leve e engraçada, muitas vezes com diálogos espirituosos, situações cômicas e personagens excêntricos. Caracterizado por tons alegres e momentos de comédia.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Hóquei_na_Grama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Hóquei_na_Grama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Field_hockey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Hóquei_no_Gelo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Hóquei_no_Gelo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Ice_hockey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Identidade_e_Autodescoberta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Identidade_e_Autodescoberta">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>Jogos que exploram a jornada pessoal de autoconhecimento e aceitação. Podem abordar questões como a busca por propósito, a descoberta de talentos e paixões, e a formação da identidade pessoal.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Inclusão_e_Diversidade_Cultural -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Inclusão_e_Diversidade_Cultural">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>Jogos que celebram a diversidade cultural, étnica e religiosa, promovendo a inclusão e o entendimento entre diferentes grupos. Podem abordar questões de racismo, xenofobia e a importância da convivência pacífica.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Industrial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Industrial">
+        <rdf:type rdf:resource="http://example.org/jogos#Cenario"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Industrial_style</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Infinitos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Infinitos">
+        <rdf:type rdf:resource="http://example.org/jogos#TipoDeFinal"/>
+        <rdfs:isDefinedBy>Jogo que não possua um final estabelecido.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Intersticiais -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Intersticiais">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Anúncios"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Isométrico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Isométrico">
+        <rdf:type rdf:resource="http://example.org/jogos#EstiloArtistico"/>
+        <rdfs:isDefinedBy>Desenhado em um ângulo isométrico.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Jogador_vs_Jogador -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Jogador_vs_Jogador">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Justiça_Social -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Justiça_Social">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>Tratam de questões como desigualdade, ativismo e movimentos sociais. Podem incluir histórias sobre a luta por direitos civis, igualdade econômica e justiça ambiental.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Linear -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Linear">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipo_de_Narrativa"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Linear_narrative"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Livre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Livre">
+        <rdf:type rdf:resource="http://example.org/jogos#Camera"/>
+        <rdfs:isDefinedBy>A câmera pode ser controlada independentemente pelo jogador, oferecendo total liberdade para explorar o ambiente.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Local -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Local">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Conectividade"/>
+        <rdfs:isDefinedBy>Jogo que ao menos oferece um modo onde não é necessário a conexão com a internet.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Loop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Loop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipo_de_Narrativa"/>
+        <rdfs:isDefinedBy>A história envolve um ciclo de tempo repetitivo, onde o jogador revive eventos e pode alterar ações a cada repetição para influenciar o resultado.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Loot_Boxes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Loot_Boxes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Transações"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Loot_box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Low_Poly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Low_Poly">
+        <rdf:type rdf:resource="http://example.org/jogos#EstiloArtistico"/>
+        <rdfs:isDefinedBy>Utiliza poucos polígonos para criar modelos 3D, resultando em um visual simplificado e estilizado.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Luta_Greco-Romana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Luta_Greco-Romana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Greco-Roman_wrestling"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mapa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mapa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+        <rdfs:isDefinedBy>Presença de uma mapa para localização.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Marcianos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Marcianos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Aliens"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mature">
+        <rdf:type rdf:resource="https://dbpedia.org/page/ESRB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mechas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mechas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Robôs"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Mecha</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Medieval -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Medieval">
+        <rdf:type rdf:resource="http://example.org/jogos#Cenario"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Middle_Ages</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Melancólico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Melancólico">
+        <rdf:type rdf:resource="http://example.org/jogos#TomAtmosfera"/>
+        <rdfs:isDefinedBy>Uma atmosfera triste e reflexiva, muitas vezes associada a temas de perda e solidão. Caracterizado por cenários desolados, música triste e um tom introspectivo.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Minecraft -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Minecraft">
+        <rdf:type rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+        <ActionGames:TemAspectoTemporal rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tempo_Real"/>
+        <ActionGames:TemCamera rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Rolante"/>
+        <ActionGames:TemCenario rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Natural"/>
+        <ActionGames:TemConectividade rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Local"/>
+        <ActionGames:TemConectividade rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Online"/>
+        <ActionGames:TemDimensao rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#3D"/>
+        <ActionGames:TemEstilo rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pixels"/>
+        <ActionGames:TemLevelDesign rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Procedural"/>
+        <ActionGames:TemMecanica rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Economia"/>
+        <ActionGames:TemMecanica rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Inventário"/>
+        <ActionGames:TemMecanica rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Níveis"/>
+        <ActionGames:TemMecanica rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Vida"/>
+        <ActionGames:TemModo rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Cooperativo"/>
+        <ActionGames:TemModo rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Multiplayer"/>
+        <ActionGames:TemModo rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Singleplayer"/>
+        <ActionGames:TemMonetizacao rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Compra_Única"/>
+        <ActionGames:TemObjetivo rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Exploração"/>
+        <ActionGames:TemObjetivo rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Missão"/>
+        <ActionGames:TemObjetivo rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sobrevivência"/>
+        <ActionGames:TemPontoDeVista rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Primeira_Pessoa"/>
+        <ActionGames:TemPontoDeVista rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Terceira_Pessoa"/>
+        <ActionGames:TemPublicoAlvo rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Livre"/>
+        <ActionGames:TemTema rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Fantasia"/>
+        <ActionGames:TemTipoDeFinal rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Infinitos"/>
+        <ActionGames:TemTiposDeInimigos rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Aracnídeos"/>
+        <ActionGames:TemTiposDeInimigos rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dragão"/>
+        <ActionGames:TemTiposDeInimigos rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Zumbi"/>
+        <ActionGames:TemTomAtmosfera rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Aconchegante"/>
+        <ActionGames:TemTomAtmosfera rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pacífico"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Minotauro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Minotauro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Criaturas"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Minotaur</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Missão -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Missão">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Objetivos"/>
+        <rdfs:isDefinedBy>Completar missões ou objetivos específicos.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modelo_de_Assinatura -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modelo_de_Assinatura">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modelo_de_Receita"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Subscription_business_model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Monocromático -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Monocromático">
+        <rdf:type rdf:resource="http://example.org/jogos#EstiloArtistico"/>
+        <rdfs:isDefinedBy>Este estilo de arte consiste em usar uma cor (preto ou branco) como cor base e depois usar diferentes tonalidades dela para colorir tudo.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Motocross -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Motocross">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Motocross"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Motovelocidade -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Motovelocidade">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Motorcycle_racing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Multi-Janelas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Multi-Janelas">
+        <rdf:type rdf:resource="http://example.org/jogos#Camera"/>
+        <rdfs:isDefinedBy>A tela mostra várias janelas ou vistas simultâneas, cada uma focando em diferentes aspectos do jogo.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Multiplayer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Multiplayer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modo_de_Jogadores"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Multiplayer_video_game"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Multiplayer_Massivo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Multiplayer_Massivo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modo_de_Jogadores"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Massively_multiplayer_online_game"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Múltiplos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Múltiplos">
+        <rdf:type rdf:resource="http://example.org/jogos#TipoDeFinal"/>
+        <rdfs:isDefinedBy>Jogo com uma quantidade finita e superior a um de finais estabelecidos.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Natação -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Natação">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Swimming_(Sport)"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Natural -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Natural">
+        <rdf:type rdf:resource="http://example.org/jogos#Cenario"/>
+        <rdfs:isDefinedBy>Paisagem natural com pouca ou nenhuma modificação humana.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Online -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Online">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Conectividade"/>
+        <rdfs:isDefinedBy>Jogo que ao menos oferece um modo onde é necessário a conexão com a internet.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Orcs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Orcs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Humanóides"/>
+        <rdfs:isDefinedBy>Grandes, musculosos, pele verde, agressivos.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pacífico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pacífico">
+        <rdf:type rdf:resource="http://example.org/jogos#TomAtmosfera"/>
+        <rdfs:isDefinedBy>Uma atmosfera serena e calma, promovendo relaxamento e contemplação. Caracterizado por ambientes naturais, música tranquila e um ritmo de jogo desacelerado.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Paraquedismo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Paraquedismo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Parachuting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Passes_da_Temporada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Passes_da_Temporada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Transações"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Battle_pass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Patinação_Artística -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Patinação_Artística">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Figure_skating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Patinação_de_Velocidade -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Patinação_de_Velocidade">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Speed_skating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pentatlo_Moderno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pentatlo_Moderno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Modern_pentathlon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pintado_a_mão -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pintado_a_mão">
+        <rdf:type rdf:resource="http://example.org/jogos#EstiloArtistico"/>
+        <rdfs:isDefinedBy>Visual que parece ter sido desenhado ou pintado manualmente, frequentemente usado para criar um toque artístico único.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pixels -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pixels">
+        <rdf:type rdf:resource="http://example.org/jogos#EstiloArtistico"/>
+        <rdfs:isDefinedBy>Usa pixels como elementos básicos da arte, evocando um estilo retro dos jogos clássicos de 8 e 16 bits.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Platformer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Platformer">
+        <rdf:type rdf:resource="http://example.org/jogos#Jogabilidade"/>
+        <rdfs:isDefinedBy>Navegação e ação através de níveis com obstáculos, saltos e plataformas.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Polo_Aquático -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Polo_Aquático">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Water_polo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Polo_Equestre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Polo_Equestre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Polo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pontuação -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pontuação">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Objetivos"/>
+        <rdfs:isDefinedBy>Foco em atingir a maior pontuação possível ou uma pontuação superior ao adversário.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Predador -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Predador">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Aliens"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Primeira_Pessoa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Primeira_Pessoa">
+        <rdf:type rdf:resource="http://example.org/jogos#PontoDeVista"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/First_person</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Procedural -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Procedural">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Level_Design"/>
+        <rdfs:isDefinedBy>Em algum grau, há variação na geração de um mesmo cenário para cada vez.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Publicidade_Nativa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Publicidade_Nativa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Anúncios"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pós-Apocalíptico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Pós-Apocalíptico">
+        <rdf:type rdf:resource="http://example.org/jogos#Cenario"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Apocalyptic_and_post-apocalyptic_fiction</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Questões_de_Gênero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Questões_de_Gênero">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>Exploram temas relacionados ao sexismo, igualdade de gênero e os desafios enfrentados pelas mulheres e pessoas não-binárias. Podem destacar a luta por direitos e a experiência diária de viver em um mundo muitas vezes desigual.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Ramificada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Ramificada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tipo_de_Narrativa"/>
+        <rdfs:isDefinedBy>A história se divide em várias ramificações ou caminhos, permitindo diferentes experiências de jogo dependendo das escolhas do jogador.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Realidade_Virtual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Realidade_Virtual">
+        <rdf:type rdf:resource="http://example.org/jogos#Camera"/>
+        <rdfs:isDefinedBy>A perspectiva é imersiva e tridimensional, geralmente usando um headset de realidade virtual, permitindo ao jogador olhar ao redor em 360 graus.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Realista -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Realista">
+        <rdf:type rdf:resource="http://example.org/jogos#EstiloArtistico"/>
+        <rdfs:isDefinedBy>Foco em gráficos altamente detalhados e realistas, buscando representar o mundo real com precisão.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Relações_Familiares -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Relações_Familiares">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>Exploram dinâmicas familiares, incluindo amor, conflito, perda, e reconciliação. Podem abordar desde a criação de filhos até os cuidados com pais idosos, passando por traumas e a importância dos laços familiares.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Rolante -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Rolante">
+        <rdf:type rdf:resource="http://example.org/jogos#Camera"/>
+        <rdfs:isDefinedBy>A câmera se move com o personagem, podendo rolar em qualquer direção para seguir a ação.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Rugby -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Rugby">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Rugby_football"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Répteis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Répteis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Animais"/>
+        <rdfs:isDefinedBy>dbpedia.org/page/Reptile</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Salto_Ornamental -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Salto_Ornamental">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Diving_(sport)"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Saúde_Mental -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Saúde_Mental">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>Jogos que tratam de temas como depressão, ansiedade, PTSD, e outros transtornos mentais. Esses jogos podem ajudar a aumentar a conscientização e promover a empatia, além de oferecer suporte a quem passa por essas experiências.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Singleplayer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Singleplayer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Modo_de_Jogadores"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Single-player_video_game"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Classes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Classes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+        <rdfs:isDefinedBy>Sistema no qual o jogador pode escolher entra um grupo de especialidades com habilidades distintas.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Economia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Economia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+        <rdfs:isDefinedBy>Sistema no qual, em forma de itens ou dinheiro, o jogador pode fazer trocas com outros personagens com algum tipo de moeda.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Inventário -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Inventário">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+        <rdfs:isDefinedBy>Presença de um armazenamento móvel no jogador no qual é possível manter itens adquiridos ao longo do tempo e itens importantes para serem carregados em uma jornada.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Loot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Loot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+        <rdfs:isDefinedBy>Sistema no qual inimigos podem gerar espólio ao serem derrotados.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Níveis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Níveis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+        <rdfs:isDefinedBy>Sistema de progressão no qual o jogador evolui por níveis, melhorando em algum aspecto ou servindo como uma conquista visual que não confere mudança prática.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Raças -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Raças">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+        <rdfs:isDefinedBy>Sistema no qual jogadores podem escolher entre espécies diferentes para seus personagens, que podem implicar em diferença estética e possivelmente prática.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Vida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sistema_de_Vida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Health_(game_terminology)"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Skate_Park -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Skate_Park">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Park_skateboarding"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Skate_Street -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Skate_Street">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Street_skating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Snowboard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Snowboard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Snowboarding"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sobre_o_Ombro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sobre_o_Ombro">
+        <rdf:type rdf:resource="http://example.org/jogos#Camera"/>
+        <rdfs:isDefinedBy>A câmera está posicionada ligeiramente atrás e acima do ombro do personagem, combinando a visão em terceira pessoa com uma perspectiva próxima.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sobrevivência -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Sobrevivência">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Objetivos"/>
+        <rdfs:isDefinedBy>Foco em sobreviver a ondas de inimigos ou condições adversas.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Stealth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Stealth">
+        <rdf:type rdf:resource="http://example.org/jogos#Jogabilidade"/>
+        <rdfs:isDefinedBy>Ênfase na furtividade e evasão em vez do combate direto.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Steampunk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Steampunk">
+        <rdf:type rdf:resource="http://example.org/jogos#Cenario"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Steampunk</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Storytelling_ambiental -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Storytelling_ambiental">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dispositivos_Narrativos"/>
+        <rdfs:isDefinedBy>A história é contada através do ambiente e objetos.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Super_Herói -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Super_Herói">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Superhero_fiction</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Super_Mario_Bros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Super_Mario_Bros">
+        <rdf:type rdf:resource="https://dbpedia.org/ontology/VideoGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Supernatural -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Supernatural">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Supernatural_fiction</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Surf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Surf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Surfing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Suspense -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Suspense">
+        <rdf:type rdf:resource="http://example.org/jogos#TomAtmosfera"/>
+        <rdfs:isDefinedBy>Uma atmosfera tensa e envolvente que mantém o jogador na ponta da cadeira. Caracterizado por música crescente, reviravoltas inesperadas e uma sensação constante de urgência.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Teen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Teen">
+        <rdf:type rdf:resource="https://dbpedia.org/page/ESRB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tela_Dividida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tela_Dividida">
+        <rdf:type rdf:resource="http://example.org/jogos#Camera"/>
+        <rdfs:isDefinedBy>A tela é dividida para mostrar múltiplas perspectivas simultaneamente, geralmente em jogos multiplayer.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tempo_Real -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tempo_Real">
+        <rdf:type rdf:resource="http://example.org/jogos#AspectoTemporal"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Real-time_strategy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Terceira_Pessoa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Terceira_Pessoa">
+        <rdf:type rdf:resource="http://example.org/jogos#PontoDeVista"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Third_person</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Torretas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Torretas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Robôs"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Turret</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Triatlo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Triatlo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Triathlon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tênis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tênis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Tennis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tênis_de_Mesa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Tênis_de_Mesa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Table_tennis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Urbano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Urbano">
+        <rdf:type rdf:resource="http://example.org/jogos#Cenario"/>
+        <rdfs:isDefinedBy>Áreas urbanas contemporâneas com edifícios altos, ruas movimentadas, parques e infraestruturas modernas. Pode incluir centros comerciais e áreas residenciais.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Vetorial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Vetorial">
+        <rdf:type rdf:resource="http://example.org/jogos#EstiloArtistico"/>
+        <rdfs:isDefinedBy>Utiliza gráficos vetoriais que são escaláveis sem perda de qualidade, muitas vezes resultando em um visual limpo e moderno.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Viagem_Rápida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Viagem_Rápida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+        <rdfs:isDefinedBy>Sistema de deslocamento no qual o caminho é encurtado por um transporte instantâneo de um jogador de uma localidade até outra.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Voxels -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Voxels">
+        <rdf:type rdf:resource="http://example.org/jogos#EstiloArtistico"/>
+        <rdfs:isDefinedBy>Aplicação tridimensional de pixels.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Vídeo_Recompensado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Vídeo_Recompensado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Anúncios"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Vôlei -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Vôlei">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Volleyball"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Wyvern -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Wyvern">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Criaturas"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Wyvern</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Zona_de_Guerra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Zona_de_Guerra">
+        <rdf:type rdf:resource="http://example.org/jogos#Cenario"/>
+        <rdfs:isDefinedBy>Cenários de conflito militar ativo, com trincheiras, campos de batalha, escombros e veículos militares. Pode incluir cidades destruídas.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Zumbi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Zumbi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Humanóides"/>
+        <rdfs:isDefinedBy>Mortos-vivos, pele em decomposição, comportamento lento e agressivo.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Árvore_de_Habilidades -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Árvore_de_Habilidades">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Mecânicas"/>
+        <rdfs:isDefinedBy>Estrutura de árvores com diversos nós e ramificações na qual o jogador possui opções para decidir sobre a montagem dos dotes de seu personagem.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Árvores_de_Diálogo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Árvores_de_Diálogo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dispositivos_Narrativos"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Dialogue_tree"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Épico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Épico">
+        <rdf:type rdf:resource="http://example.org/jogos#TomAtmosfera"/>
+        <rdfs:isDefinedBy>Atmosfera grandiosa e heroica, muitas vezes presente em jogos de fantasia e aventura. Caracterizado por música orquestral, cenários impressionantes e uma sensação de grandeza.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Único -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Único">
+        <rdf:type rdf:resource="http://example.org/jogos#TipoDeFinal"/>
+        <rdfs:isDefinedBy>Jogo onde só há um único final.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#12_Anos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#12_Anos">
+        <rdf:type rdf:resource="https://dbpedia.org/page/PEGI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#16_Anos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#16_Anos">
+        <rdf:type rdf:resource="https://dbpedia.org/page/PEGI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#18_Anos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#18_Anos">
+        <rdf:type rdf:resource="https://dbpedia.org/page/PEGI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#2D -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#2D">
+        <rdf:type rdf:resource="http://example.org/jogos#Dimensao"/>
+        <rdfs:comment>Jogos eletrônicos que possuem gráficos 2D.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#2.5D -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#2.5D">
+        <rdf:type rdf:resource="http://example.org/jogos#Dimensao"/>
+        <rdfs:comment>Descreve um visual que aparenta ser tridimensional, isto é, o jogo usa gráficos 2D em um ambiente 3D falso que usa uma ilusão de profundidade e perspectiva.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#3D -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#3D">
+        <rdf:type rdf:resource="http://example.org/jogos#Dimensao"/>
+        <rdfs:comment>Jogos eletrônicos que possuem gráficos 3D.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#3_Anos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#3_Anos">
+        <rdf:type rdf:resource="https://dbpedia.org/page/PEGI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#7_Anos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#7_Anos">
+        <rdf:type rdf:resource="https://dbpedia.org/page/PEGI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Everyone_10+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Everyone_10+">
+        <rdf:type rdf:resource="https://dbpedia.org/page/ESRB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#LGBTQIA+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#LGBTQIA+">
+        <rdf:type rdf:resource="http://example.org/jogos#Tema"/>
+        <rdfs:isDefinedBy>Jogos que exploram a diversidade de orientações sexuais e identidades de gênero. Podem abordar questões de aceitação, discriminação, relacionamentos, e celebração da diversidade. Esses jogos frequentemente incluem personagens LGBTQIA+ e narrativas focadas em suas vidas e experiências.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dbpedia.org/page/Badminton -->
+
+    <owl:NamedIndividual rdf:about="https://dbpedia.org/page/Badminton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Badminton"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dbpedia.org/page/Baseball -->
+
+    <owl:NamedIndividual rdf:about="https://dbpedia.org/page/Baseball">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Baseball"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dbpedia.org/page/Cricket -->
+
+    <owl:NamedIndividual rdf:about="https://dbpedia.org/page/Cricket">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Cricket"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dbpedia.org/page/Flashforward -->
+
+    <owl:NamedIndividual rdf:about="https://dbpedia.org/page/Flashforward">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Dispositivos_Narrativos"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Flashforward</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dbpedia.org/page/Golf -->
+
+    <owl:NamedIndividual rdf:about="https://dbpedia.org/page/Golf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Golf"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dbpedia.org/page/Gymnastics -->
+
+    <owl:NamedIndividual rdf:about="https://dbpedia.org/page/Gymnastics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Gymnastics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dbpedia.org/page/Judo -->
+
+    <owl:NamedIndividual rdf:about="https://dbpedia.org/page/Judo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Judo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dbpedia.org/page/Luta_Livre -->
+
+    <owl:NamedIndividual rdf:about="https://dbpedia.org/page/Luta_Livre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy rdf:resource="https://dbpedia.org/page/Luta_Livre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dbpedia.org/page/Muay_Thai -->
+
+    <owl:NamedIndividual rdf:about="https://dbpedia.org/page/Muay_Thai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/franciscojso/ontologies/2024/4/ActionGames#Esportes"/>
+        <rdfs:isDefinedBy>https://dbpedia.org/page/Muay_Thai</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
